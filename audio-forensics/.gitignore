@@ -1,0 +1,6 @@
+# 长时压测样例体积过大，不入库（可用 tests/long-duration.mjs 前的 ffmpeg 命令重新生成）
+samples/long-*.wav
+
+# 本地运行/系统文件
+.DS_Store
+*.log

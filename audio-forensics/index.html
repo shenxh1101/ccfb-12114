@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>音频完整性校验台 · 本地取证工作台</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<aside class="sidebar">
+  <div class="brand">
+    <div class="brand-mark">AF</div>
+    <div>
+      <div class="brand-title">音频完整性校验台</div>
+      <div class="brand-sub">本地解析 · 不上传</div>
+    </div>
+  </div>
+  <nav id="nav">
+    <a href="#/import" data-route="import"><span class="nav-ico">▣</span>证据导入</a>
+    <a href="#/detect" data-route="detect"><span class="nav-ico">◈</span>篡改检测</a>
+    <a href="#/timeline" data-route="timeline"><span class="nav-ico">∿</span>时间线</a>
+    <a href="#/custody" data-route="custody"><span class="nav-ico">⛓</span>保管链</a>
+    <a href="#/report" data-route="report"><span class="nav-ico">▤</span>报告</a>
+  </nav>
+  <div class="sidebar-foot">
+    <div class="local-badge"><span class="dot"></span>全程离线运行</div>
+    <div class="ver">v1.0 · SHA-256 链式存证</div>
+  </div>
+</aside>
+<main class="main">
+  <header class="topbar">
+    <h1 id="page-title">证据导入</h1>
+    <div id="topbar-right"></div>
+  </header>
+  <section id="view" class="view"></section>
+</main>
+<div id="toast-root"></div>
+<script type="module" src="js/ui/app.js"></script>
+</body>
+</html>

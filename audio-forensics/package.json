@@ -1,0 +1,14 @@
+{
+  "name": "audio-forensics-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "本地音频完整性校验台：容器解析、拼接篡改检测、保管链与 JSON 报告，全程离线",
+  "scripts": {
+    "serve": "node tests/serve.mjs",
+    "samples": "node tests/make-samples.mjs",
+    "test": "node --test tests/core.test.mjs tests/import-graph.test.mjs",
+    "check:paths": "node tests/check-paths.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
